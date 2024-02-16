@@ -16,14 +16,6 @@ created=0
 failed=0
 
 
-L = '\033[1;33m' #اصفر
-C = "\033[1;97m" #ابيض
-B = '\033[2;36m'#سمائي
-Y = '\033[1;34m' #ازرق فاتح.
-C = "\033[1;97m" #ابيض
-X = '\037' #ابيض
-G = '\033[1;32m'
-R = '\033[1;31m'
 id ='6581896306'
 
 token ="6549476942:AAGZhIdcyJaUTiSHuK4uNUi1ZnYZgPXUA7E"
@@ -72,7 +64,6 @@ executor=concurrent.futures.ThreadPoolExecutor(max_workers=500)
 
 while True:
  executor.submit(create)
- os.system('clear')
- print(G+'Created : '+str(created))
- print(R+'Failed : '+str(failed))
- print(C+"@UP_UO")
+ print('Created : '+str(created))
+ print('Failed : '+str(failed))
+ print("@UP_UO")
