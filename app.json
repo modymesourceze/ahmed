@@ -1,0 +1,13 @@
+{
+    "name": "🔱 𝐙𝐄 🔱",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "logo": "https://telegra.ph/file/bd0fde82d09f7681afc99.jpg",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "env": {
+  }
+} 
